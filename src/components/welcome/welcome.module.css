@@ -1,0 +1,48 @@
+.welcome {
+  background-color: rgb(246, 246, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 6rem;
+}
+
+.welcome img {
+  height: 30rem;
+  width: 30rem;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.text p {
+  font-size: 1.5rem;
+  width: 40%;
+  text-align: center;
+  color: rgb(27, 27, 27);
+}
+
+@media only screen and (max-width: 1160px) {
+  .welcome {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  .text p {
+    width: 100%;
+  }
+
+  .welcome img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
