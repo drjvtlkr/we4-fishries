@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-evenly;
   border-top-left-radius: 8rem;
-  color: white;
+  color: rgb(235, 223, 223);
   width: 100%;
 }
 

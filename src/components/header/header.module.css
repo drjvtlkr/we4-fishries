@@ -1,4 +1,4 @@
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,6 +10,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Set the background color with opacity */
 }
 
 .navbar li {
@@ -27,7 +28,7 @@
 }
 
 .link:hover {
-  color: rgb(2, 2, 184);
+  color: rgb(6, 92, 126);
   text-decoration: underline;
 }
 
@@ -50,7 +51,7 @@
     right: -70vw;
     width: 70vw;
     height: 100vh;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8); /* Set the background color with opacity */
   }
   .navbar.active {
     right: 0px;
@@ -67,5 +68,11 @@
   }
   .link {
     margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Set the background color with opacity */
   }
 }

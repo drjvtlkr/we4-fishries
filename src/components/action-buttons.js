@@ -19,6 +19,7 @@ const ActionButtons = (props) => {
 
   return (
     <div className={classes["action-buttons"]}>
+      <a href="./contact">
       <button
         ref={contactButtonRef}
         onClick={contactButtonClickHandler}
@@ -26,6 +27,8 @@ const ActionButtons = (props) => {
       >
         Contact Now
       </button>
+      </a>
+      <a href="./ourGallery">
       <button
         ref={galleryButtonRef}
         onClick={galleryButtonClickHandler}
@@ -33,6 +36,7 @@ const ActionButtons = (props) => {
       >
         Our Galleries
       </button>
+      </a>
     </div>
   );
 };
