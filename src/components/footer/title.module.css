@@ -9,7 +9,9 @@
 
 @media only screen and (max-width: 1160px) {
   .title {
-    font-size: 10px;
+    font-size: 2rem; /* Adjusted font size for mobile screens */
     font-weight: bold;
   }
+  
+  /* Additional styles for further responsiveness if needed */
 }

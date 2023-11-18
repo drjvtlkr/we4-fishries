@@ -3,10 +3,10 @@
   padding: 1.5rem 4rem;
   display: flex;
   justify-content: space-evenly;
-  border-top-left-radius: 8rem;
+  border-top-left-radius: 9rem;
   color: rgb(235, 223, 223);
   width: 100%;
-  height: 250px;
+  height: 300px;
 }
 
 .footer-option {
@@ -18,8 +18,8 @@
 }
 
 .logo {
-  height: 10rem;
-  width: 10rem;
+  height: 13rem;
+  width: 12rem;
 }
 
 .newsletter {

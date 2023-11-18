@@ -29,4 +29,13 @@
   .types {
     padding: 2%;
   }
+
+  .image-section {
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
