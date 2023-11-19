@@ -33,6 +33,11 @@
   margin: 1.5rem;
   cursor: pointer;
   height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-section img:hover {
+  transform: scale(1.1); /* Adjust the scale factor for the hover effect */
 }
 
 @media only screen and (max-width: 1160px) {

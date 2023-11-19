@@ -32,6 +32,11 @@
   margin: 1.5rem;
   cursor: pointer;
   height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-section img:hover {
+  transform: scale(1.2); /* Adjust the scale factor for the hover effect */
 }
 
 @media only screen and (max-width: 1160px) {
@@ -39,7 +44,8 @@
     padding: 1rem;
   }
   .image-section img {
-    height: 7rem;
-    width: 7rem;
+    height: 14rem; /* Adjust the height for mobile screens */
+    width: 14rem; /* Adjust the width for mobile screens */
+    margin: 1rem; /* Adjust the margin for mobile screens */
   }
 }
