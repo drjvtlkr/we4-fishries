@@ -9,8 +9,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 1rem;
-  background-color: rgba(255, 255, 255, 0.8); /* Set the background color with opacity */
+  padding: 2.5rem 1rem;
+  background-color: rgba(243, 240, 240, 0.8); /* Set the background color with opacity */
 }
 
 .navbar li {
