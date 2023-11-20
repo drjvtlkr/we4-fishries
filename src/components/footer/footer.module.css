@@ -19,16 +19,16 @@
 
 .logo {
   height: 13rem;
-  width: 12rem;
+  width: 13rem;
 }
 
 .newsletter {
-  width: 100px;
+  width: 90px;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 10px;
+  gap: 1px;
 }
 
 .newsletter input {
@@ -54,16 +54,24 @@
   gap: 5px;
 }
 
+.mobile {
+  font-size: small;
+}
+
 @media only screen and (max-width: 1160px) {
   .footer {
     padding: 20px 10px;
   }
   .logo {
-    height: 2rem;
-    width: 2rem;
+    width: 100px;
+    height: 100px;
+
   }
   .footer-option p {
     font-size: calc(50% + 2px);
+  }
+  .newsletter{
+    font-size: smaller;
   }
   .newsletter p {
     font-size: calc(50% + 2px);
