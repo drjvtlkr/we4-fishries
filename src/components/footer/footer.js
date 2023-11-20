@@ -23,7 +23,7 @@ const Footer = (props) => {
         <p>Contact</p>
       </div>
       <div className={classes.newsletter}>
-        <Title className={classes.mobile}>Newsletter</Title>
+        <Title>Newsletter</Title>
         <div className={classes["input-container"]}>
           <input type="email" placeholder="Your mail ID" />
           <img src={arrow} alt="" />

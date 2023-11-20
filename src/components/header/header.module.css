@@ -1,20 +1,17 @@
-h1{
-   font-size: 35px;
-}
-
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value for transparency */
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.5rem 1rem;
-  background-color: rgba(243, 240, 240, 0.8); /* Set the background color with opacity */
+  padding: 2rem 1rem;
+  background-color: transparent; /* Set the background to transparent */
 }
 
 .navbar li {
@@ -25,14 +22,14 @@ nav {
 
 .link {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 1.3rem;
   font-weight: 600;
   color: black;
   transition: 0.3s ease-in-out;
 }
 
 .link:hover {
-  color: rgb(6, 92, 126);
+  color: rgb(2, 2, 184);
   text-decoration: underline;
 }
 
@@ -40,29 +37,36 @@ nav {
   display: none;
 }
 
-.full{
-  display: flex;
-}
-
 .mobile i {
   color: black;
   padding: 2rem;
+  transition: 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 790px) {
+  .nav {
+    /* position: fixed; */
+    background-color: rgba(29, 89, 125, 0.8); /* Adjust the alpha value for transparency */
+    color: aliceblue;
+  }
   .navbar {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     position: fixed;
     top: 80px;
-    right: -70vw;
-    width: 70vw;
+    right: -100vw;
+    width: 100vw;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.8); /* Set the background color with opacity */
+    background-color: rgba(29, 89, 125, 0.8); /* Adjust the alpha value for transparency */
+    transition: 0.3s ease-in-out;
   }
   .navbar.active {
     right: 0px;
+  }
+
+  .navbar li {
+    color: aliceblue;
   }
 
   .mobile {
@@ -73,17 +77,9 @@ nav {
   .mobile i {
     font-size: 24px;
     cursor: pointer;
+    color: aliceblue;
   }
   .link {
     margin-bottom: 1.5rem;
-  }
-  .full{
-    display: none;
-  }
-}
-
-@media screen and (min-width: 770px) {
-  .navbar {
-    background-color: rgba(255, 255, 255, 0.8); /* Set the background color with opacity */
   }
 }

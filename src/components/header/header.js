@@ -22,8 +22,7 @@ const Header = (props) => {
     <>
       <nav className={classes.nav}>
         <div></div>
-        <div className={classes.mobile}> WE 4 FISHERIES</div>
-        <h1 className={classes.full} >WE 4 FISHERIES</h1>
+        <div className={classes.mobile}> We 4 Fishery</div>
         <ul className={navbarClasses}>
           <Link className={classes.link} to="#Home" onClick={toggleIconHandler}>
             <li>Home</li>
