@@ -3,10 +3,10 @@
   padding: 1.5rem 4rem;
   display: flex;
   justify-content: space-evenly;
-  border-top-left-radius: 9rem;
-  color: rgb(235, 223, 223);
+  align-items: flex-end;
+  border-top-left-radius: 8rem;
+  color: white;
   width: 100%;
-  height: 300px;
 }
 
 .footer-option {
@@ -16,19 +16,22 @@
   justify-content: space-evenly;
   align-items: center;
 }
+.footer-option p {
+  margin: 1rem 0;
+}
 
 .logo {
-  height: 13rem;
-  width: 13rem;
+  height: 10rem;
+  width: 10rem;
 }
 
 .newsletter {
-  width: 90px;
+  width: 100px;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1px;
+  gap: 10px;
 }
 
 .newsletter input {
@@ -54,31 +57,26 @@
   gap: 5px;
 }
 
-.mobile {
-  font-size: small;
-}
-
 @media only screen and (max-width: 1160px) {
   .footer {
     padding: 20px 10px;
+    align-items: center;
   }
   .logo {
-    width: 100px;
-    height: 100px;
-
+    height: 50px;
+    width: 45px;
   }
   .footer-option p {
     font-size: calc(50% + 2px);
-  }
-  .newsletter{
-    font-size: smaller;
-  }
-  .newsletter p {
-    font-size: calc(50% + 2px);
+    margin: 12px 0;
   }
   .newsletter input {
     margin: 5px 0;
-    width: 70%;
+    width: 60%;
     padding: 0 4px;
+  }
+  .social-icons {
+    height: 30px;
+    width: 10px;
   }
 }
